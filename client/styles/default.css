@@ -1,0 +1,13 @@
+.bannerImage {
+  max-height: 300px;
+  overflow: hidden;
+  width: 100%;
+}
+h1{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}

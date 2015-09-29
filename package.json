@@ -1,0 +1,36 @@
+{
+  "name": "techarms.in",
+  "version": "0.0.1",
+  "description": "TechArms.in web site",
+  "author": [
+    {
+      "name": "Dhayalan Prakasam",
+      "email": ""
+    }
+  ],
+  "website": {
+    "url": "http://techarms.in"
+  },
+  "repository": {
+    "type": "github",
+    "url": ""
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "compression": "^1.5.2",
+    "cookie-parser": "^1.4.0",
+    "cookie-session": "^1.2.0",
+    "express": "latest",
+    "method-override": "^2.3.5",
+    "request": "latest",
+    "underscore": "latest",
+    "underscore.string": "latest",
+    "util": "latest"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "4.1.1",
+    "npm": "2.14.4"
+  }
+}

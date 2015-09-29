@@ -1,0 +1,102 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="/images/banner1.png" alt="Banner">
+    </div>
+  </div>
+  <a class="left carousel-control" href="#" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- <taCarousel carousel="carousel" is-nav="true"/> -->
+<div ng-controller="HomeController">
+  <!-- <ta-carousel carousel="carousel" is-nav="true"></ta-carousel> -->
+  <section>
+    <h4> WHAT WE DO</h4>
+    <div class="dashboard clearfix">
+      <ul class="tiles">
+        <div class="col1 clearfix">
+          <a href="/development">
+            <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+              <div>
+                <p><img src="/images/development.png" style="height:100px; width:auto;"></p>
+              </div>
+              <div>
+                <p>Software Development</p>
+              </div>
+            </li>
+          </a>
+          <a>
+            <li class="tile tile-big tile-2 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
+              <div>
+                <p><img src="/images/seo.png" style="height:100px; width:auto;" /></p>
+              </div>
+              <div>
+                <p>Search Engine Optimization</p>
+              </div>
+            </li>
+          </a>
+        </div>
+        <div class="col2 clearfix">
+          <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
+            <div>
+              <p><img src="/images/maintenance.png" style="height:100px; width:auto;"></p>
+            </div>
+            <div>
+              <p>Software Maintenance</p>
+            </div>
+          </li>
+          <li class="tile tile-big tile-10 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+            <div>
+              <p><img src="/images/consulting.png" style="height:100px; width:auto;" /></p>
+            </div>
+            <div>
+              <p>Consulting</p>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <h4>WHAT ARE WE UPTO</h4>
+    <h5 class="container"><p>We are a IT company and consulting firm works for your success in turn to our mission.</p>
+		<p>Our core sectors of expertise are web application development, maintenance, search engine optimization and consulting service.</p></h5>
+    <div class="text-center" style="float: none;    margin: 0 auto;">
+      <div class="col1 clearfix">
+        <li class="tile tile-2xbig tile-10 slideTextUp" data-page-type="custom-page" data-page-name="random-r-page">
+          <div>
+            <figure>
+              <img src="/images/vision.png" />
+              <figcaption class="tile-caption caption-bottom">Vision</figcaption>
+            </figure>
+          </div>
+          <div>
+            <p>Customer focused solution with value addition.</p>
+          </div>
+        </li>
+      </div>
+      <div class="col2 clearfix">
+        <li class="tile tile-2xbig tile-4 slideTextUp" data-page-type="custom-page" data-page-name="random-r-page">
+          <div>
+            <figure>
+              <img src="/images/mission.png" />
+              <figcaption class="tile-caption caption-bottom">Mission</figcaption>
+            </figure>
+          </div>
+          <div>
+            <p>To be a most prefered technical partner for our customer in their business.</p>
+          </div>
+        </li>
+      </div>
+    </div>
+  </section>
+</div>

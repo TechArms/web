@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app='techarms'>
+
+<head>
+    <title>TechArms ...your business arms</title>
+    <base href='/' />
+    <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <!-- Components' style -->
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Styles -->
+    <link rel='stylesheet' ng-href='/styles/windows-styles.css' />
+    <link rel='stylesheet' ng-href='/styles/custom.css' />
+    <link rel='stylesheet' ng-href='/styles/default.css' />
+    <!-- Components -->
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- Modules -->
+    <script src='/modules/app.js'></script>
+    <!-- <script type="text/javascript" src="/modules/directives/carousel.js"></script>
+    <script type="text/javascript" src="/modules/home-controller.js"></script> -->
+</head>
+
+<body ng-cloak style="">
+    <div id="index" class="">
+        <!-- <h1><a href="/">TechArms.in</a></h1> -->
+        <div ng-include="'menu.html'"></div>
+        <div id='contentHolder' class="container">
+            <ng-view></ng-view>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted credit">&copy; <a href="http://techarms.in">TechArms.in</a> | &reg; All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
